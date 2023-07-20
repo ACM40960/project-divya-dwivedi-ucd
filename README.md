@@ -1,1 +1,9 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/foXtNvtG)
+## Detection of Covid-19 using Chest X-Ray
+
+### Background: 
+
+The first documented instance of a highly transmissible illness caused by the Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) was detected in Wuhan, China, in December 2019. The World Health Organization (WHO) designated it as a Public Health Emergency of International Concern or an epidemic in January 2020. Despite efforts to contain it, the disease continued to spread, leading to thousands of deaths. In February 2020, the WHO officially named the illness "COVID-19," and by March 2020, it was declared a pandemic, rapidly spreading across the globe.
+
+COVID-19 exhibits a wide range of symptoms, including fever, dry cough, fatigue, shortness of breath, chest pain, and others. Some symptoms are common, while others are less typical and can be severe. Severe symptoms often begin with seemingly harmless signs such as a headache, fever, cough, or sore throat. However, in a matter of days, these symptoms can escalate and become life-threatening in certain cases. A significant number of individuals suffering from severe COVID-19 experience cough and shortness of breath.
+
+It has caused a devastating effect on both daily lives, public health, and the global economy. It is critical to detect the positive cases as early as possible so as to prevent the further spread of this epidemic and to quickly treat affected patients. The need for auxiliary diagnostic tools has increased as there are no accurate automated toolkits available. Recent findings obtained using radiology imaging techniques suggest that such images contain salient information about the COVID-19 virus. Application of advanced artificial intelligence (AI) techniques coupled with radiological imaging can be helpful for the accurate detection of this disease, and can also be assistive to overcome the problem of a lack of specialized physicians in remote villages.
