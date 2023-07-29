@@ -11,9 +11,11 @@ The first documented instance of a highly transmissible illness caused by the Se
 
 The proposed system works in following steps:
 
-Identifying and splitting the data by labels which can be used to train our model.
-Designing a supervised learning model(CNN) which will learn from the different features of the image and provide predictions with the highest accuracy possible.
-Finally, our model will be evaluated using the test dataset and the results will be noted down which will indicate if the proposed model can be used to detect Covid-19 cases. The focus here will be on the false-negatives as the goal is to predict the positive cases of Covid-19 correctly.
+1. Identifying and splitting the data by labels which can be used to train our model.
+
+2. Designing a supervised learning model(CNN) which will learn from the different features of the image and provide predictions with the highest accuracy possible.
+
+3. Finally, our model will be evaluated using the test dataset and the results will be noted down which will indicate if the proposed model can be used to detect Covid-19 cases. The focus here will be on the false-negatives as the goal is to predict the positive cases of Covid-19 correctly.
 
 ### Dataset
 
