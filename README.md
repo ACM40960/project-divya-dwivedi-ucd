@@ -25,8 +25,8 @@ Link: https://www.kaggle.com/datasets/prashant268/chest-xray-covid19-pneumonia
 
 The Dataset consists of 6536 x-ray images and contains three sub-folders (COVID19, PNEUMONIA, NORMAL). The data is then divided into train, validation and test sets where the test set is 20% of the total data.
 
-![image](https://github.com/ACM40960/project-divya-dwivedi-ucd/assets/133960362/b06fe987-d44b-40b4-8d72-3e858b0294b0)
-![image](https://github.com/ACM40960/project-divya-dwivedi-ucd/assets/133960362/50b2ef8c-d10c-4701-ba03-e165e843643d)
+<img width="807" alt="image" src="https://github.com/ACM40960/project-divya-dwivedi-ucd/assets/133960362/011c262b-2cb9-441f-92d1-b4dab41266f4">
+
 
 The images above show the X-ray images of a normal person and of a person diagnosed with Covid-19.
 
@@ -34,8 +34,8 @@ Before evaluating a model, it is crucial to report the demographic statistics of
 
 The data set used for this study is clinical data for individuals aged between 10-90 years with 65% Male and 35% Female ratio. [1]
 
-![image](https://github.com/ACM40960/project-divya-dwivedi-ucd/assets/133960362/bfcc1293-faa2-4642-b6f5-36ed76de24e4)
-![image](https://github.com/ACM40960/project-divya-dwivedi-ucd/assets/133960362/825cc9d4-4750-4fac-9e77-ace152ca91e4)
+<img width="1046" alt="image" src="https://github.com/ACM40960/project-divya-dwivedi-ucd/assets/133960362/d7f30378-ba05-4d5c-b489-35bbef754afe">
+
 
 
 ### Model
@@ -107,3 +107,17 @@ In our experiments, we have also applied a color visualization approach by using
 
 [1]  Joseph Paul Cohen, IEEE. (n.d.). GitHub - ieee8023/covid-chestxray-dataset: We are building an open database of COVID-19 cases with chest X-ray or CT images. GitHub. https://github.com/ieee8023/covid-chestxray-dataset
 
+[2] D. Cucinotta and M. Vanelli. “who declares covid-19 a pandemic”. Acta Biomedica: Atenei Parmensis, 91:157–160,
+2020.
+
+[3] Humayun M Jhanjhi NZ Gouda W, Almurafeh M. Detection of covid-19 based on chest x-rays using deep learning.
+Healthcare (Basel), page 343, February 2022.
+
+[4] P. K. Ratha P. K. Sethy, S. K. Behera and P. Biswas. Detection of coronavirus disease (covid-19) based on deep
+features and support vector machine. 5:643–651, 2020.
+
+[5] S. Kasaei R. Rouhi, M. Jafari and P. Keshavarzian. Benign and malignant breast tumors classification based on region
+growing and cnn segmentation. Expert Systems with Applications, 42:990–1002, 2015.
+
+[6] A. S. Lundervold and A. Lundervold. An overview of deep learning in medical imaging focusing on mri. Zeitschrift fur
+Medizinische Physik, 29:102–127, 2019.
