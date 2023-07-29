@@ -104,7 +104,7 @@ In our experiments, we have also applied a color visualization approach by using
 
 ### Acknowledgement 
 
-I would like to express their sincere gratitude to Dr. Sarp Akcay for all his guidance and support throughout the module at University College Dublin. I would also like to thank Mr. Prashant Patel for combining the dataset and contributing towards the success of this project. I am grateful to the University College Dublin for providing resources that made this project possible. Lastly, I want to thank everyone who directly or indirectly supported me during this endeavor.
+I would like to express my sincere gratitude to Dr. Sarp Akcay for all his guidance and support throughout the module at University College Dublin. I would also like to thank Mr. Prashant Patel for combining the dataset and contributing towards the success of this project. I am grateful to the University College Dublin for providing resources that made this project possible. Lastly, I want to thank everyone who directly or indirectly supported me during this endeavor.
 
 
 ### References
