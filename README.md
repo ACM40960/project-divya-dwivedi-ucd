@@ -102,6 +102,10 @@ AI computational models used to assess chest X-rays in the process of diagnosing
 
 In our experiments, we have also applied a color visualization approach by using the Grad-CAM technique to make the proposed deep learning model more interpretable and explainable. The obtained results reveal that the patient diagnosed with Pneumonia has more chances to get tested as a False Positive by the proposed algorithm. Therefore, to detect the COVID-19 cases accurately with higher recall, it is suggested to train the model on radiology images of patients with Pneumonia symptoms as well. This will help us to detect pneumonia patients as True Negative (just for clarification-here, COVID-19 cases are True Positive) which were previously detected as false positive. This results in an unbiased detection of COVID-19 cases in a real-time scenario.
 
+### Acknowledgement 
+
+I would like to express their sincere gratitude to Dr. Sarp Akcay for all his guidance and support throughout the module at University College Dublin. I would also like to thank Mr. Prashant Patel for combining the dataset and contributing towards the success of this project. I am grateful to the University College Dublin for providing resources that made this project possible. Lastly, I want to thank everyone who directly or indirectly supported me during this endeavor.
+
 
 ### References
 
