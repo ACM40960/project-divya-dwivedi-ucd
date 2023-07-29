@@ -121,3 +121,10 @@ growing and cnn segmentation. Expert Systems with Applications, 42:990–1002, 2
 
 [6] A. S. Lundervold and A. Lundervold. An overview of deep learning in medical imaging focusing on mri. Zeitschrift fur
 Medizinische Physik, 29:102–127, 2019.
+
+
+### License
+
+Each image has License: CC BY 4.0 as specified in the Kaggle Dataset Metadata, including Apache 2.0, CC BY-NC-SA 4.0, CC BY 4.0.
+All scripts and  documents are released under a CC BY-NC-SA 4.0 license. Companies are free to perform research. Beyond that contact us on divya.dwivedi@ucdconnect.ie and siddhesh.bagwe@ucdconnect.ie
+
