@@ -1,5 +1,8 @@
 ## Detection of Covid-19 using Chest X-Ray
 
+This project aims to leverage chest X-ray images to develop a predictive model for COVID-19 diagnosis. By analyzing the characteristics and patterns observed in these images, the model seeks to accurately predict whether a patient is diagnosed with COVID-19. The proposed approach offers the potential for a faster and more accessible diagnostic method, especially in areas where RT-PCR testing resources may be limited.
+
+
 ### Background: 
 
 The first documented instance of a highly transmissible illness caused by the Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) was detected in Wuhan, China, in December 2019. This project aims to leverage chest X-ray images to develop a predictive model for COVID-19 diagnosis. The need for auxiliary diagnostic tools increased as there are no accurate automated toolkits available. Recent findings obtained using radiology imaging techniques suggest that such images contain salient information about the COVID-19 virus. Application of advanced artificial intelligence (AI) techniques coupled with radiological imaging offers the potential for a faster and more accessible diagnostic method, especially in areas where RT-PCR testing resources may be limited.
@@ -16,6 +19,57 @@ The proposed system works in following steps:
 2. Designing a supervised learning model(CNN) which will learn from the different features of the image and provide predictions with the highest accuracy possible.
 
 3. Finally, our model will be evaluated using the test dataset and the results will be noted down which will indicate if the proposed model can be used to detect Covid-19 cases. The focus here will be on the false-negatives as the goal is to predict the positive cases of Covid-19 correctly.
+
+### Project Implementation
+
+Follow this step by step guide to be able to predict if a person is diagnosed with Covid-19 or Pneumonia using a chest X-Ray.
+
+The entire project is done using Jupyter Notebook (Python). The first step is to install Python on your device. You can use Anaconda to install Pythonm as it comes with a number of pre-installed packages generally used in machine learning and data science. This saves a lot of effort and time as one does not need to install each package separately.
+
+Follow the link to install the latest version of Anaconda as per your system OS. https://docs.anaconda.com/free/anaconda/install/index.html
+
+### Packages Required
+
+For the purpose of the project you would need a number of packages within python. You can use the pip command in Anaconda prompt to install the following packages. Rest of the packages will be already installed through Anaconda. If not use pip to install them
+
+```
+pip install tensorflow
+pip install keras
+pip install opencv-python
+pip install -U albumentations
+
+```
+
+Next, we open the Jupyter notebook to begin the implementation. First, we import the installed packages using the following commands.
+
+```
+import keras
+import cv2, os, gc, glob
+
+import tensorflow as tf
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
+import seaborn as sns
+import matplotlib.cm as cm
+
+from tqdm import tqdm
+from tensorflow.keras import layers, models
+
+from keras.models import Sequential, Model
+from keras.layers import Conv2D, MaxPool2D
+from keras.layers import Activation, Dropout, BatchNormalization, Flatten, Dense
+from keras.optimizers import Adam as adam
+from keras.utils import to_categorical
+
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import confusion_matrix, classification_report
+from sklearn.preprocessing import LabelEncoder
+import albumentations as A
+
+```
+
 
 ### Dataset
 
@@ -43,6 +97,31 @@ The data set used for this study is clinical data for individuals aged between 1
 The model designed here uses three convolutional layers with an input shape of (100, 100, 3) and Rectified Linear Unit (ReLU) activation function to introduce non-linearity in the model. The first layer has 32 filters to convolve over the input image. It also employs dropout and L2 regularization techniques to improve generalization and prevent overfitting. In the final dense layer, the softmax activation function is used to obtain the class probabilities for multi-class classification
 
 ![image](https://github.com/ACM40960/project-divya-dwivedi-ucd/assets/133960362/e5cd5125-c7a2-4be9-8458-7f7cf324ede6)
+
+You can find the model in the main code file. The summary of the model can be seen below.
+
+
+![image](https://github.com/ACM40960/project-divya-dwivedi-ucd/assets/133960362/08273686-3f6f-4854-bee8-aede11e6e880)
+
+The model is then fit for 50 epochs with a batch size of 32. You can do this using the below code. 
+
+**Beware - Running the model will take time and computing resources.**
+
+```
+epochs = 50
+cnn = model.fit(trainX, trainY, validation_data = (valX, valY), epochs=epochs,
+                      batch_size=32,  verbose = 1)
+
+```
+
+Alternatively you can directly used the trained model using the already trained model. The file can be downloaded from here https://drive.google.com/file/d/1G5PzPSijc4dIWoQeKjLQcKqUtxFXeggS/view?usp=sharing. You will have to load the file to run the model.
+
+```
+model = tf.keras.saving.load_model("Paste the file location here")
+```
+
+This has been our best attempt in creating the model with the highest accuracy. You can change the parameters as per your requirements. Keep reading to see the results from this model.
+
 
 ### Results
 
