@@ -79,14 +79,14 @@ Link: https://www.kaggle.com/datasets/prashant268/chest-xray-covid19-pneumonia
 
 The Dataset consists of 6536 x-ray images and contains three sub-folders (COVID19, PNEUMONIA, NORMAL). The data is then divided into train, validation and test sets where the test set is 20% of the total data.
 
-<img width="807" alt="image" src="https://github.com/ACM40960/project-divya-dwivedi-ucd/assets/133960362/011c262b-2cb9-441f-92d1-b4dab41266f4">
+![image](https://github.com/ACM40960/project-divya-dwivedi-ucd/assets/133960362/abaf7980-562d-47f5-9495-92d1ac57375a)
 
+The images above show the he count of individual images of each category. The dataset consists of 676 Covid X-Rays, 1585 Normal X-Rays and 4275 Pneumonia X-Rays.
 
-The images above show the X-ray images of a normal person and of a person diagnosed with Covid-19.
-
-Before evaluating a model, it is crucial to report the demographic statistics of their datasets, including age and sex distributions. Diagnostic studies commonly compare their models’ performance to that of RT–PCR. 
+Before evaluating a model, it is crucial to report the demographic statistics of their datasets, including age and sex distributions. Diagnostic studies commonly compare their models’ performance to that of RT–PCR.
 
 The data set used for this study is clinical data for individuals aged between 10-90 years with 65% Male and 35% Female ratio. [1]
+
 
 <img width="1046" alt="image" src="https://github.com/ACM40960/project-divya-dwivedi-ucd/assets/133960362/d7f30378-ba05-4d5c-b489-35bbef754afe">
 
@@ -136,6 +136,8 @@ to focus on the False Negatives of the model which is only 1 case out of the tot
 dataset. This is likely due to the overlapping imaging characteristics.
 
 ![image](https://github.com/ACM40960/project-divya-dwivedi-ucd/assets/133960362/de89d4ca-5173-4785-83e2-ed5366cb5ae4)
+
+### Grad-Cam Visualisation
 
 Given the severity of the issue at hand, it is imperative that we create a visualization
 of the scare tissue presence. Gradient-wighted Class Activation Mapping uses the
