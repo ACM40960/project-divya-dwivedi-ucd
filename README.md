@@ -127,7 +127,8 @@ This has been our best attempt in creating the model with the highest accuracy. 
 
 We are interested in the F1 score of the model. This score provides the balance between precision and recall or in other words it is the accuracy for individual class. From the output below, we can see the overall accuracy is 95.9% for validation and 95.4% for test data. The support count for each class represents the number of images on which the model training and testing was performed. 
 
-<img width="571" alt="image" src="https://github.com/ACM40960/project-divya-dwivedi-ucd/assets/133960362/45547724-692c-4265-8199-695862aa039b">
+
+<img width="400" height="300" alt="image" src="https://github.com/ACM40960/project-divya-dwivedi-ucd/assets/133960362/45547724-692c-4265-8199-695862aa039b"><img width="400" height="300" alt="image" src="https://github.com/ACM40960/project-divya-dwivedi-ucd/assets/133960362/de89d4ca-5173-4785-83e2-ed5366cb5ae4">
 
 To analyze the model classification we look into the Confusion matrix of our proposed
 model. We can see that the sensitivity (Recall) of Covid-19 (96.2%) is at par with
@@ -135,7 +136,6 @@ sensitivity of Pneumonia (96.7%). Due to the fatality of the problem in hand, we
 to focus on the False Negatives of the model which is only 1 case out of the total
 dataset. This is likely due to the overlapping imaging characteristics.
 
-![image](https://github.com/ACM40960/project-divya-dwivedi-ucd/assets/133960362/de89d4ca-5173-4785-83e2-ed5366cb5ae4)
 
 ### Grad-Cam Visualisation
 
